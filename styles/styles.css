@@ -111,12 +111,9 @@ header {
 	margin-bottom: 12px; 
 }
 
-#photo { 
-	float: right; 
-}
-
 #photo img { 
-
+	max-width: 30%;
+	float: right; 
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -124,8 +121,6 @@ header {
 	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 	background-color: #fff;
-/*border: 1px solid #ccc;
-padding: 5px; */
 }
 
 /** @group skills **/
@@ -166,7 +161,6 @@ html[xmlns] .clearfix {
 	margin-left: auto;
     margin-right: auto;
     width: 100%;
-    /*background-color: #f14;	*/
     text-align: center;
 }
 
@@ -187,16 +181,8 @@ html[xmlns] .clearfix {
 	width: 44px;
 	display: block;
 	margin-top: 1px;
-	/*background-position: 0 -215px;*/
 }
 
-/*footer .copyright {
-	clear: both;
-	width: 100%;
-	padding-top: 5;
-	list-style: none;
-	color: #666;
-}*/
 
  .copyright {
 	display: list-item;
