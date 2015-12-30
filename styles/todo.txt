@@ -1,0 +1,4 @@
+1. General markup
+2. Copies
+3. Styling
+4. Hosting
