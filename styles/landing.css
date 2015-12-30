@@ -1,5 +1,8 @@
 
 @media only screen and (max-width: 400px) {
+	h1 {
+		text-align: center;
+	}
 	.sidebar {
 		display:inline-block;
 		padding-bottom: 20px;
@@ -11,14 +14,14 @@
 .frame {
 	padding: 20px;
 }
-/*.h2 {
-	text-align: center;
-	font-color: green;
-	padding-bottom: 50px;
+
+
+.about {
+	clear: both;
 }
-.sidebar, .about {
-	display: inline-block;
-	vertical-align: text-top;
-}*/
+
+.quotation {
+
+}
 
 

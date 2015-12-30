@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        text-align: center;
+    }
+    .sidebar {
+        border-top: 1px solid green;
+        
+    }
+}
+

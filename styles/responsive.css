@@ -41,6 +41,7 @@
     /*landing page */
     .sidebar {
         padding-bottom: 20px;
+        border-top: 1px solid black;
     }
 
     /*CV*/
@@ -66,4 +67,38 @@
 /** iPhone only **/
 @media screen and (max-device-width: 480px) {
     ul li { width: 150px; }
+
+    /* landing page */
+    .sidebar {
+     border-top: 1px solid #979797;
+     padding-top: 20px;
+     text-align: center;
+     }
+
+.sidebar p {
+        padding: 25px;
+     }
+
+    .frame {
+        padding: 50px;
+
+    }
+    .frame h1 {
+        text-align: center;
+        padding: 50px;
+    }
+    .frame p {
+        padding-left: 0;
+    }
+    .frame img {
+        margin-left: 10px;
+    }
+    .about {
+        clear: both;
+        padding: 50px 0;
+        text-align: center;
+    }
+    .quotation {
+        font-style: italic;: 
+    }
 }
