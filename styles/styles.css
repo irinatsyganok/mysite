@@ -43,8 +43,7 @@ p {
 	color: #565656; 
 	font-size: 1.8em; 
 	line-height: 1.4em; 
-	margin-bottom: 15px; 
-	padding-left: 35px; 
+	margin-bottom: 15px;  
 }
 
 small { 
@@ -111,8 +110,7 @@ header {
 }
 
 #photo img { 
-	max-width: 30%;
-	float: right; 
+	max-width: 50%;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -120,17 +118,10 @@ header {
 	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 	background-color: #fff;
+	display: block;
+	margin: auto;
 }
 
-/** @group skills **/
-#skills-left, #skills-right { 
-	display: block; 
-	float: left; 
-}
-
-#skills-left { 
-	margin-right: 30px; 
-}
 
 /** @group clearfix **/
 .clearfix:after { 
