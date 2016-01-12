@@ -8,7 +8,6 @@ body {
 	font-size: 62.5%; 
 	padding-bottom: 65px; 
 }
-/*e4809c font-color for h1 and h2*/
 h1, h2, h3 { 
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif; /*font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #e4809c; font-size: 3.6em; margin-bottom: 6px; */
 	color: #000;
@@ -90,7 +89,7 @@ a:hover {
 	padding-top: 35px; 
 	background: #fff; 
 	min-width: 260px; 
-	max-width: 900px; 
+	max-width: 1050px; 
 	border-bottom-right-radius: 8px; 
 	border-bottom-left-radius: 8px; 
 	-webkit-border-bottom-left-radius: 8px; 

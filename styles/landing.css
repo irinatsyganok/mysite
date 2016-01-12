@@ -1,27 +1,41 @@
-
-@media only screen and (max-width: 400px) {
-	h1 {
-		text-align: center;
-	}
-	.sidebar {
-		display:inline-block;
-		padding-bottom: 20px;
-		padding-top: 20px;
-		border-top: 1px solid #979797;
-	}
+h1 {
+        text-align: center;
 }
-
-.frame {
-	padding: 20px;
+.frame, #photo {
+        padding: 25px;
 }
 
 
-.about {
-	clear: both;
+@media only screen and (max-width: 980px) {
+    h1 {
+        padding:25px;
+    }
+    .sidebar {
+        padding: 50px 0;
+        border-top: 1px solid #979797;
+        text-align: center;
+    }
+    .quotation {
+        font-style: italic; 
+       	margin: 25px 0 0;
+    }
+     .about {
+        clear: both;
+        padding: 50px 0;
+        text-align: center;
+    }
+    
 }
 
-.quotation {
-
+@media only screen and (min-width: 981px) {
+    .infocontainer {
+        display: inline-block;
+        width: 400px;
+    }
+    .sidebar {
+        display: inline-block;
+        width: 200px;
+    }
 }
 
 
