@@ -1,43 +1,43 @@
-h1 {
+@media only screen and (max-width: 570px) {
+    body {
         text-align: center;
-}
-.frame, #photo {
-        padding: 25px;
-}
-.quotation {
-        font-style: italic; 
-        margin: 25px 0 0;
-}
-.sidebar {
-      padding: 50px 0;
-}
-
-
-@media only screen and (max-width: 980px) {
-    h1 {
-        padding:25px;
-    }
-    .sidebar { 
-        border-top: 1px solid #979797;
-        text-align: center;
-    }
-     .about {
-        clear: both;
-        padding: 50px 0;
-        text-align: center;
+        font: 12px "Gotham A", "Gotham B", sans-serif;
+        color: #292b2c;
+        line-height: 18px;
+        background: #f7f7f7;
+        -webkit-font-smoothing: antialiase;
     }
     
-}
-
-@media only screen and (min-width: 981px) {
-    .infocontainer {
-        display: inline-block;
-        width: 400px;
+    h1 {
+        text-transform: uppercase;
     }
-    .sidebar {
+
+    a {
+        text-decoration: none;
+        font-size: 10px;
+        margin: 0 10px 10px;
         display: inline-block;
-        width: 200px;
+        color: #8a8a8a;
+        text-transform: uppercase;
     }
+
+    .social a {
+            display: inline-block;
+            margin: 0 2px;
+            opacity:1;
+            font-size: 10px;
+            color: #7b7b7b;
+        }
+
+    .social a img {
+            display: inline-block;
+    }
+    img {
+        vertical-align: middle;
+        border: 0;
+        height: 44px;
+        width: 44px;
+    } 
+
+
 }
-
-
